@@ -17,6 +17,7 @@ var isValid = (guess >= 0 && guess <= 6);
 
 console.log(isValid);
 
+//What is the value?
 
 var kB = 1287;
 
@@ -27,3 +28,19 @@ var urgent = true;
 var sendFile = (urgent == true || tooBig == false);
 
 console.log(sendFile)
+
+
+var keyPressed = "N";
+
+var points = 142;
+
+var level;
+
+if (keyPressed == "Y" ||
+    (points > 100 && points < 200)) {
+    level = 2;
+} else {
+    level = 1;
+}
+
+console.log(level)
