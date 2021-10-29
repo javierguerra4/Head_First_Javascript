@@ -17,3 +17,13 @@ var isValid = (guess >= 0 && guess <= 6);
 
 console.log(isValid);
 
+
+var kB = 1287;
+
+var tooBig = (kB > 1000);
+
+var urgent = true;
+
+var sendFile = (urgent == true || tooBig == false);
+
+console.log(sendFile)
