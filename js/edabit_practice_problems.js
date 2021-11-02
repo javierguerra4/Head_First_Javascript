@@ -31,3 +31,8 @@ return arr[0]
 function remainder(x, y) {
 return x % y;
 }
+
+// Return the Next Number from the Integer Passed
+function addition(num) {
+return num + 1;
+}
