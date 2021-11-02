@@ -26,3 +26,8 @@ console.log(triArea(10, 10));
 function getFirstValue(arr) {
 return arr[0]
 }
+
+// Return the Remainder from Two Numbers
+function remainder(x, y) {
+return x % y;
+}
