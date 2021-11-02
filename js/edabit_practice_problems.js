@@ -21,3 +21,8 @@ function triArea(base, height) {
 return ((base * height) / 2);
 }
 console.log(triArea(10, 10));
+
+// Return the First Element in an Array
+function getFirstValue(arr) {
+return arr[0]
+}
