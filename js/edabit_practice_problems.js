@@ -42,3 +42,13 @@ return num + 1;
 function circuitPower(voltage, current) {
 return voltage * current;
 }
+
+//A student learning JavaScript was trying to make a function.
+// His code should concatenate a passed string name with string "Edabit" and store it in a variable called result.
+// He needs your help to fix this code.
+
+function nameString(name){
+    var b = "Edabit"
+    var result = name + b
+    return result;
+}
