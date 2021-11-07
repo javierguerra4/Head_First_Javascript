@@ -63,3 +63,11 @@ return ((n - 2) * 180);
 function points(twoPointers, threePointers) {
 return ((twoPointers * 2) + (threePointers * 3));
 }
+
+//Write a function that mimics (without the use of <<) the left shift operator and returns the result from the two given integers.
+
+function shiftToLeft(x, y) {
+return (x * Math.pow(y, y));
+
+}
+console.log(shiftToLeft((10, 3)))
