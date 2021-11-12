@@ -83,3 +83,10 @@ function nextEdge(side1, side2) {
 return ((side1 + side2) - 1);
 }
 console.log(nextEdge(4, 5));
+
+// Write a function that returns the string "something" joined with a space " " and the given argument a.
+
+function giveMeSomething(a) {
+return "Something " + a;
+}
+console.log(giveMeSomething("is better than nothing right?"));
