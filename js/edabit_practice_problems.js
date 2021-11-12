@@ -102,3 +102,30 @@ if ((a + b) >= 100){
 };
 }
 console.log(lessThan100(99, 0));
+
+// JavaScript has a logical operator &&. The && operator takes two boolean values, and returns true if both values are true.
+//
+//     Consider a && b:
+//
+// a is checked if it is true or false.
+//     If a is false, false is returned.
+//     b is checked if it is true or false.
+//     If b is false, false is returned.
+//     Otherwise, true is returned (as both a and b are therefore true ).
+// The && operator will only return true for true && true.
+//
+//     Make a function using the && operator.
+
+function and(a, b) {
+
+}
+
+// Create a function that takes the number of wins, draws and losses and calculates the number of points a football team has obtained so far.
+//
+//     wins get 3 points
+// draws get 1 point
+// losses get 0 points
+
+function footballPoints(wins, draws, losses) {
+
+}
