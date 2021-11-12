@@ -71,3 +71,15 @@ return (x * Math.pow(y, y));
 
 }
 console.log(shiftToLeft((10, 3)))
+
+// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+function addUp(num) {
+
+}
+
+//Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
+
+function nextEdge(side1, side2) {
+return ((side1 + side2) - 1);
+}
+console.log(nextEdge(4, 5));
