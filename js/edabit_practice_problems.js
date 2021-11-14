@@ -129,3 +129,15 @@ function and(a, b) {
 function footballPoints(wins, draws, losses) {
 
 }
+
+// Fix the code in the Code tab so the function returns true if and only if x is equal to 7.
+
+function isSeven(x) {
+    if (x !== 7) {
+        return false
+    }   else{
+                return true;
+            }
+        }
+
+console.log(isSeven(4));
