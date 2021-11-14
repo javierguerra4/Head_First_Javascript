@@ -141,3 +141,16 @@ function isSeven(x) {
         }
 
 console.log(isSeven(4));
+
+
+// Given an n-sided regular polygon n, return the total sum of internal angles (in degrees).
+
+function sumPolygon(n) {
+    if (n < 2){
+        return "Input must be greater that 2"
+    } else {
+       return ((n - 2) * 180);
+    }
+
+}
+console.log(sumPolygon(10));
