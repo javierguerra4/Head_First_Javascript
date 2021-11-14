@@ -165,3 +165,7 @@ function lessThanOrEqualToZero(num) {
     }
 }
 console.log(lessThanOrEqualToZero(2));
+
+function minMax(arr) {
+
+}
