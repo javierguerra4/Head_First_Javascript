@@ -154,3 +154,14 @@ function sumPolygon(n) {
 
 }
 console.log(sumPolygon(10));
+
+// Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+function lessThanOrEqualToZero(num) {
+    if(num > 0){
+        return false;
+    } else{
+        return true;
+    }
+}
+console.log(lessThanOrEqualToZero(2));
