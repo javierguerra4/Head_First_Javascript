@@ -197,3 +197,13 @@ function comp(str1, str2) {
 console.log(comp("AB", "CD"));
 console.log(comp("ABC", "DE"));
 console.log(comp("hello", "edabit"));
+
+//Create a function that accepts an array and returns the last item in the array.
+
+function getLastItem(arr) {
+    return arr.slice(-1);
+
+}
+console.log(getLastItem([1, 2, 3]));
+console.log(getLastItem(["cat", "dog", "duck"]));
+console.log(getLastItem([true, false, true]));
