@@ -73,9 +73,9 @@ return (x * Math.pow(y, y));
 console.log(shiftToLeft((10, 3)))
 
 // Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
-function addUp(num) {
-
-}
+// function addUp(num) {
+//
+// }
 
 //Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
 
@@ -178,11 +178,11 @@ function calculateFuel(n) {
     if (n * 10 < 100) {
         return 100;
     } else {
-        return (n * 10);
+        return (n * 2);
     }
 }
 
-console.log(calculateFuel(2));
+console.log(calculateFuel(50));
 
 //Create a function that takes two strings as arguments and return either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
 
@@ -211,7 +211,21 @@ console.log(getLastItem([true, false, true]));
 // A leap year happens every four years, so it's a year that is perfectly divisible by four. However, if the year is a multiple of 100 (1800, 1900, etc), the year must be divisible by 400.
 //
 // Write a function that determines if the year is a leap year or not.
+//
+// function leapYear(year) {
+// if (year )
+// }
 
-function leapYear(year) {
-if (year )
+// Add up the Numbers from a Single Number
+// Create a function that takes a number as an argument.
+//     Add up all the numbers from 1 to the number you passed to the function.
+// For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+
+function addUp(num) {
+    var total = 0;
+    for(var i = 1; i <= num; i++){
+        total += i;
+    }
+    return total;
 }
+console.log(addUp(6))
