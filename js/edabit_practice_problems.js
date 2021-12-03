@@ -229,3 +229,18 @@ function addUp(num) {
     return total;
 }
 console.log(addUp(6))
+
+
+// This challenge will help you interpret mathematical relationships both algebraically and geometrically.
+//     https://edabit.com/challenge/tYHkTdFrEmWfxpPKF
+//     Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above.
+
+function matchHouses(step) {
+    if (step === 0){
+        return 0
+    } else {
+        return ((step * 6) - (step -1));
+    }
+}
+
+console.log(matchHouses(0))
