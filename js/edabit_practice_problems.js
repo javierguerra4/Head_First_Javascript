@@ -253,3 +253,6 @@ function minMax(arr) {
 }
  var arr = [50, 60, 20, 10, 40]
    console.log(minMax(arr))
+
+
+console.log("Testing Github push")
