@@ -166,9 +166,9 @@ function lessThanOrEqualToZero(num) {
 }
 console.log(lessThanOrEqualToZero(2));
 
-function minMax(arr) {
-
-}
+// function minMax(arr) {
+//
+// }
 
 //A vehicle needs 10 times the amount of fuel than the distance it travels. However, it must always carry a minimum of 100 fuel before setting off.
 //
@@ -244,3 +244,12 @@ function matchHouses(step) {
 }
 
 console.log(matchHouses(0))
+
+
+// Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+
+function minMax(arr) {
+    return [Math.min(arr), Math.max(arr)];
+}
+ var arr = [50, 60, 20, 10, 40]
+   console.log(minMax(arr))
