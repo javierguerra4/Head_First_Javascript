@@ -259,11 +259,17 @@ console.log("Testing Github push")
 
 // You will be given an array of drinks, with each drink being an object with two properties: name and price. Create a function that has the drinks array as an argument and return the drinks objects sorted by price in ascending order.
 
-const drinks = [
-    {name: "lemonade", price: 50},
-    {name: "lime", price: 10}
-]
-function sortDrinkByPrice(drinks) {
-return drinks.sort((a,b) => (a.name > b.name) ? 1 : (a.name === b.name) ? ((a.price > b.size) ? 1 : -1) : -1);
+// const drinks = [
+//     {name: "lemonade", price: 50},
+//     {name: "lime", price: 10}
+// ]
+// function sortDrinkByPrice(drinks) {
+// return drinks.sort((a,b) => (a.name > b.name) ? 1 : (a.name === b.name) ? ((a.price > b.size) ? 1 : -1) : -1);
+// }
+// console.log(sortDrinkByPrice())
+
+//Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+function lessThan100(a, b) {
+return (a + b) <= 100;
 }
-console.log(sortDrinkByPrice())
+console.log(lessThan100(99, 4))
