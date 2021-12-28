@@ -298,3 +298,18 @@ function timeForMilkAndCookies(date) {
 }
 
 console.log(timeForMilkAndCookies(new Date(2025, 11, 24)))
+
+
+// Create a function to return the amount of potatoes there are in a string.
+
+function potatoes(str) {
+    return str.match(/potato/g).length
+}
+
+// *****Example solutions*****
+
+// console.log(potatoes("potato"))
+//
+// console.log(potatoes("potatopotatopotatopotatopotatopotato"))
+
+// console.log(potatoes("potatoapple"))
