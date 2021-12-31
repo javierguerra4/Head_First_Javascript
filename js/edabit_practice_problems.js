@@ -313,3 +313,21 @@ function potatoes(str) {
 // console.log(potatoes("potatopotatopotatopotatopotatopotato"))
 
 // console.log(potatoes("potatoapple"))
+
+// Create a function that takes a string and returns a string in which each character is repeated once.
+
+function doubleChar(str) {
+    let arr = Array.from(str);
+    let newArr = [];
+    for (var i = 0; i < arr.length; i++){
+        newArr.push(arr[i].repeat(2))
+    }
+    console.log(newArr.join(""))
+}
+doubleChar("Solid Snake")
+
+// doubleChar("String") ➞ "SSttrriinngg"
+//
+// doubleChar("Hello World!") ➞ "HHeelllloo  WWoorrlldd!!"
+//
+// doubleChar("1234!_ ") ➞ "11223344!!__  "
