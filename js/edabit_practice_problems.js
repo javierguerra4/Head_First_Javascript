@@ -349,3 +349,12 @@ console.log(bomb("This is patrick."))
 // bomb("Hey, did you think there is a bomb?") ➞ "Duck!!!"
 //
 // bomb("This goes boom!!!") ➞ "There is no bomb, relax."
+
+//Given an array of numbers, return an array which contains all the even numbers in the original array, which also have even indices.
+const nums = [1, 2, 3, 4, 5, 6, 7, 8]
+function getOnlyEvens(nums) {
+   const even = nums.filter(number => {
+       return number % 2 === 0;
+   });
+   console.log(getOnlyEvens);
+}
