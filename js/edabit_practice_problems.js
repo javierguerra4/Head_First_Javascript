@@ -370,3 +370,19 @@ function countVowels(str) {
 // countVowels("Palm") ➞ 1
 //
 // countVowels("Prediction") ➞ 4
+
+//Write a function that takes a string name and a number num (either 0 or 1) and return "Hello" + name if num is 1, otherwise return "Bye" + name.
+function sayHelloBye(name, num) {
+    if (num === 1){
+        return ("Hello" + " " + name)
+    } else if (num === 0){
+        return ("Bye" + " " + name)
+    } else return("Please input a 1, or 0")
+}
+
+console.log(sayHelloBye("Javier", 3))
+// sayHelloBye("alon", 1) ➞ "Hello Alon"
+//
+// sayHelloBye("Tomi", 0) ➞ "Bye Tomi"
+//
+// sayHelloBye("jose", 0) ➞ "Bye Jose"
