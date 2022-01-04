@@ -331,3 +331,21 @@ doubleChar("Solid Snake")
 // doubleChar("Hello World!") ➞ "HHeelllloo  WWoorrlldd!!"
 //
 // doubleChar("1234!_ ") ➞ "11223344!!__  "
+
+
+
+// Create a function that finds the word "bomb" in the given string (not case sensitive). If found, return "Duck!!!", otherwise return "There is no bomb, relax.".
+
+function bomb(str) {
+if (str.indexOf('bomb') > -1){
+    return "Duck";
+}   else return "There is no bomb, relax.";
+}
+console.log(bomb("This food is the bomb."))
+console.log(bomb("This is patrick."))
+
+// bomb("There is a bomb.") ➞ "Duck!!!"
+//
+// bomb("Hey, did you think there is a bomb?") ➞ "Duck!!!"
+//
+// bomb("This goes boom!!!") ➞ "There is no bomb, relax."
