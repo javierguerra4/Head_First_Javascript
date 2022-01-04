@@ -358,3 +358,15 @@ function getOnlyEvens(nums) {
    });
    console.log(getOnlyEvens);
 }
+
+//Create a function that takes a string and returns the number (count) of vowels contained within it.
+function countVowels(str) {
+    return str.match(/[aeiou]/gi).length;
+}
+
+    console.log(countVowels("Apple and or Orange"))
+// countVowels("Celebration") ➞ 5
+//
+// countVowels("Palm") ➞ 1
+//
+// countVowels("Prediction") ➞ 4
